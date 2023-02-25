@@ -1,0 +1,239 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 11000px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    color: blue;
+}
+.menu{
+    float: right;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: black; 
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a :hover{
+    text-decoration: underline;
+}
+main{
+    margin: 15px;
+}
+
+.section{
+    text-align: center;
+    position: relative;
+}
+.iklan{
+    width: 100%;
+}
+.info{
+    transform: translateY(-25%);
+    display: flex;
+    justify-content: center;
+    border-radius: 25%;
+}
+.button{
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0;
+}
+.button p {
+    display: inline-block;
+}
+.button:nover{
+    cursor: pointer;
+}
+.button :nth-child(1){
+    border-right: 1px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.button :nth-last-child(2){
+    border-right: 1px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.button:nover{
+    cursor: pointer;
+}
+.button img{
+    width: 30px;
+}
+/* Destinasi */
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.pos{
+    width: 240px;
+}
+.card{
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+.judulcard{
+    font-size: 15px;
+    font-weight: bold;
+}
+.detailcard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.detailcard p{
+    font-size: 14px;
+}
+.card .utama{
+    display: block;
+    border-radius: 25px;
+    height: 250px;
+    width: 100%;
+}
+.card .bintang{
+    width: 34px;
+}
+.btnd{
+    margin: 10px;
+    width: 80%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.btnd .button{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btnd .button:nover{
+    cursor: pointer;
+}
+.rekomendasi{
+    margin-top: 25px;
+    padding: 15px;
+}
+.cardpos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.card image{
+    display: block;
+    margin: auto;
+}
+.card .info{
+    transform: translateY(-100%);
+    color: #f7f7f7;
+    padding: 20px;
+    background: linear-gradient(268.58deg, white(0,0,0,0)34.26%,blue 91.4%);
+}
+.card .utama{
+    border-radius: 25px;
+    width: 100%;
+}
+.table{
+    display: flex;
+    justify-content: space-between;
+}
+.i{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}
+.i .icon{
+    margin-top: 30px;
+}
+.i .detail{
+    padding-bottom: 50px;
+    text-align: center;
+}
+.Information{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.Information.judulcard a{
+    text-align: center;
+    margin-top: 45px;
+}
+.Information .active{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Information .judulinfo a{
+    text-align: center;
+    margin-top: 45px;
+}
+.Information .linkinfo a{
+    display: block;
+    margin: 20px;
+}
+footer{
+    border-top: 1px solid #d0cccc;
+}
+.icon{
+    font-size: 30px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 30px;
+}
